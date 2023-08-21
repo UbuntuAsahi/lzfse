@@ -5,10 +5,12 @@ Maintainer: Tobias Heider <me@tobhe.de>
 Build-Depends: debhelper-compat (= 13), cmake
 Standards-Version: 4.6.0
 Homepage: https://github.com/lzfse/lzfse
-Vcs-Git: https://github.com/tobhe/lzfse -b debian/unstable
+Vcs-Browser: https://github.com/tobhe/lzfse
+Vcs-Git: https://github.com/tobhe/lzfse.git -b debian/unstable
 Rules-Requires-Root: no
 
 Package: liblzfse
+Section: libs
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
