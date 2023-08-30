@@ -1,3 +1,9 @@
+lzfse (1.0-1ubuntu1.22.04.1) jammy; urgency=medium
+
+  * Rebase onto debian version.
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 30 Aug 2023 02:06:57 +0200
+
 lzfse (1.0-1) unstable; urgency=medium
 
   * Initial release.
